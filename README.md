@@ -1,24 +1,64 @@
-# template-repository 🦾
-codering
-Tijdens het opleveren van code zien we graag dat er een README bestand wordt meegeleverd, dit maakt het gemakkelijker voor een ander om met jouw code verder te gaan of er gebruik van te maken.
-Deze README beschrijft het project, wat je nodig hebt om de code te gebruiken en hoe je de code kunt gebruiken. Uiteraard kan dit ietsje afwijken aan de hand van welke taal je hebt geprogrammeerd, maar blijf het liefst zo dicht bij mogelijk bij deze standaarden.
+# UR-Documentation  
+*Deze README is beschikbaar in het Nederlands en Engels. / This README is available in Dutch and English.*
 
-De volgende dingen zien we graag in een README:
-- beschrijving: graag zien we een korte beschrijving van je project. dus een korte uitleg wat je code doet als je het gebruikt.
-- imports en versies: graag zien we een lijst met alle imports, packages, software, etc die je hebt gebruikt met de versies. Denk hierbij aan je python versie, dat je iets met "pip install" hebt geinstalleerd of dat je ubuntu 23.04 als operating system hebt gebruikt (dus ook welke versie je hebt geinstalleerd). (test dus ook je code op een andere laptop!!! hierdoor weet je zeker dat je alles genoteerd hebt)
-- architectuur: graag zien we een korte beschrijving van de architectuur van je project. welke bestanden hebben welke bestanden nodig en wat kun je in welk bestand vinden.
-- reference: graag zien we een lijst met welke code je niet zelf hebt gemaakt of gebaseerd hebt op een ander zijn code met daarbij een link naar de originele code en een datum waarop je die code hebt geraadpleegd. Dit zorgt ervoor dat de juiste mensen credit krijgen. (let op, ook als je een functie ergens vandaan haalt en aanpast hoor je nog steeds te zeggen wie daar credit voor krijgt).
-- usage: op het moment dat je extra hardware zoals een robot gebruikt is het fijn als er ook iets uitgelegd wordt over hoe je alles hebt aangesloten en opgestart. Misschien is het wel van belang dat je eerst het programma op de cobot start voordat je de python code op je laptop start.
+---
 
-- commenting: in code is het vrij normaal om comments te gebruiken om je code duidelijker te maken. Graag zien we dan ook dat dit gedaan wordt.
-	- functie beschrijving: Liefst zien we dat er per functie met een comment uitgelegd wordt hoe de functie werkt en waarvoor ie bedoeld wordt (dit kan vaak in 1 zin). mocht de functie lang zijn dan zien we ook graag comments tussendoor.
-	- Bestand beschrijving: Liefst zien we bovenaan elk bestand dat er een korte beschrijving staat van welke functies er in het bestand geprogrammeerd zijn.
-	- Variabele beschrijving:
+## 🇳🇱 Nederlands
 
-Een ReadMe schrijf je in Markdown. in de volgende link vind je wat voorbeelden over hoe je deze kunt stylen:
-https://github.com/lifeparticle/Markdown-Cheatsheet
+### Over deze repository
 
-mocht je wat inspiratie willen kun je op de github hieronder even kijken.
-https://github.com/matiassingers/awesome-readme
+Deze repository is bedoeld als uitgebreide databank en leeromgeving voor het werken met **UR RTDE** (Real-Time Data Exchange) via de [`ur_rtde`](https://sdurobotics.gitlab.io/ur_rtde/) Python-library, gericht op gebruik binnen **Perron038**.
 
-https://integrity.mit.edu/handbook/academic-integrity-handbook
+### Doelgroep
+
+De voorbeelden in deze repository zijn speciaal ontworpen voor gebruikers met **weinig tot geen programmeerervaring**, of gebruikers die **nieuw zijn in Python**. Ze dienen als praktische boilerplate-code: direct bruikbare sjablonen waarmee je kunt experimenteren, leren en verder bouwen.
+
+### Inhoud
+
+Deze repository bevat:
+- **Voorbeelden van het gebruik van UR RTDE**: communicatie met Universal Robots.
+- **GUI-voorbeelden**: toepassingen met **PyQt** en **Tkinter**.
+- **Stap-voor-stap instructies** per voorbeeld.
+
+### Structuur
+
+Elk voorbeeld heeft een eigen map met:
+- Een duidelijke `README.md` die uitlegt:
+  - Wat het voorbeeld doet
+  - Wat je nodig hebt
+  - Hoe je het opzet en uitvoert
+
+### Installatie-instructies
+
+Tenzij anders vermeld, gaan de instructies uit van een installatie op **Windows**.
+
+---
+
+## 🇬🇧 English
+
+### About this repository
+
+This repository is intended as a comprehensive database and learning environment for working with **UR RTDE** (Real-Time Data Exchange) using the [`ur_rtde`](https://sdurobotics.gitlab.io/ur_rtde/) Python library, aimed at use within **Perron038**.
+
+### Target audience
+
+The examples in this repository are specifically designed for users with **little to no programming experience**, or those who are **new to Python**. They serve as practical boilerplate code: ready-to-use templates to experiment with, learn from, and build upon.
+
+### Contents
+
+This repository includes:
+- **Examples for using UR RTDE**: communication with Universal Robots.
+- **GUI examples**: implementations using **PyQt** and **Tkinter**.
+- **Step-by-step instructions** for each example.
+
+### Structure
+
+Each example has its own folder with:
+- A dedicated `README.md` explaining:
+  - What the example does
+  - What you need
+  - How to set it up and run it
+
+### Installation instructions
+
+Unless otherwise noted, all installation instructions assume you are using **Windows**.

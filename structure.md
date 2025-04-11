@@ -19,7 +19,7 @@
    ├── RTDE IO/
    |   ├── README.md  
    │   └── *.py  
-   └── RTDE Example program (TKInter)/  
+   └── RTDE Example Program (TKInter)/  
    |   ├── README.md  
    │   └── *.py  
 ```
